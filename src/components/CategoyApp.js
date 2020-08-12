@@ -11,7 +11,7 @@ const CategoyApp = ({ setCategories }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (inputValue.trim().length > 1) {
-      setCategories((prev) => [...prev, inputValue]);
+      setCategories((prev) => [inputValue, ...prev]);
       setInputValue('');
     }
   };
