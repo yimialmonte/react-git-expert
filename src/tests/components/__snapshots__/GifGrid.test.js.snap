@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for component GifGrid Should show component correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__lightSpeedInRight"
+  >
+    Hand
+  </h3>
+  <p
+    className="animate__animated animate__bounce"
+  >
+     Cargando ...
+  </p>
+  <div
+    className="card-grid animate__animated animate__fadeInDown"
+  />
+</Fragment>
+`;
+
+exports[`Test for component GifGrid Should show items when load imagenes 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__lightSpeedInRight"
+  >
+    Hand
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeInDown"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Title"
+      url="https//localhost"
+    />
+  </div>
+</Fragment>
+`;
